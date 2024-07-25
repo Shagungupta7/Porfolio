@@ -54,7 +54,14 @@ document.addEventListener('DOMContentLoaded', () => {
                </div>
                <p>Here is a link to my <a href="https://drive.google.com/file/d/1TqpFzsGh06eIVgOKoB4eWEA0o1NXebPl/view?usp=drive_link" target="_blank">Resume</a></p>
              </div>`,
-    projects: "<p>Here are the projects.</p>",
+    projects: `<div class="projects">
+               <h2>My Projects</h2>
+               <div class="project-list">
+                 <div class="project">
+                   <h3>Gmail-clone</h3>
+                   <a href="https://github.com/Shagungupta7/Gmail-clone" target="_blank">View Project</a>
+                 </div>
+             </div>`,
     contact: `<div class="contact">
                 <h2>Contact Me</h2>
                 <div class="contact-links">
