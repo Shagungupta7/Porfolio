@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+  </head>
+  <body>
+
+    <div class="gradient-bg">
+      <svg xmlns="http://www.w3.org/2000/svg" style="position: absolute; width: 0; height: 0;">
+        <defs>
+          <filter id="fancy-goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+            <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+          </filter>
+        </defs>
+      </svg>
+      
+      
+
+      <div class="gradient-container">
+        <div class="g1"></div>
+        <div class="g2"></div>
+        <div class="g3"></div>
+        <div class="g4"></div>
+        <div class="g5"></div>
+        <div class="g6"></div>
+        <div class="interactive"></div>
+
+        
+      </div>
+
+      
+    </div>
+    <div class="box">
+      <h1 class="box-text">Shagun Gupta</h1>
+      <p class="box-subtext">Computer science student</p>
+      <hr>
+
+      <ul>
+        <li><a href="#" class="active" data-content="home">Home</a></li>
+        <li><a href="#" data-content="skills">Skills</a></li>
+        <li><a href="#" data-content="projects">Projects</a></li>
+        <li><a href="#" data-content="contact">Contact</a></li>
+      </ul>
+      <div class="content" id="content">
+      </div>
+
+    </div>
+    
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
