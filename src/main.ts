@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     contact: `<div class="contact">
                 <h2>Contact Me</h2>
                 <div class="contact-links">
-                  <a href="https://github.com/orangesantara" target="_blank" class="contact-link">
+                  <a href="https://github.com/Shagungupta7" target="_blank" class="contact-link">
                     <i class="fab fa-github"></i> GitHub
                   </a>
                   <a href="https://www.linkedin.com/in/shagun-gupta777" target="_blank" class="contact-link">
