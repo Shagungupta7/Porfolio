@@ -167,6 +167,44 @@ ul li a.active {
   text-decoration: underline;
 }
 
+.projects {
+  padding: 0;
+  font-size: 40px;
+  color: white;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.project h3 {
+  margin: 0;
+  font-size: 30px;
+  color: white;
+}
+
+.project p {
+  margin: 5px 0;
+}
+
+.project a {
+  color: purple;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 786px) {
   .bio{
     font-size: 20px;
