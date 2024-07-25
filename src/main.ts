@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
   const contentMap: { [key: string]: string } = {
     home: `<div class="home"> 
-             <div class="photo"><img src="/img/profile.1jpg.jpg" alt="Shagun"></div>
+             <div class="photo"><img src="img/profile.1jpg.jpg" alt="Shagun"></div>
              <div class="bio">
                <p>Born in 2004 in New Delhi, India. I am a passionate computer science student pursuing a B.Tech in Computer Science (Data Science) at GL Bajaj Institute of Technology and Management. With a strong foundation in data structures, algorithms, and Java development, I thrive on solving complex problems and exploring new technologies. My journey in computer science is driven by a desire to learn continuously and innovate. Through various projects, I have gained practical experience and enjoy collaborating with others to create impactful solutions. I aim to leverage my skills to contribute to technological advancements and make a positive difference in the world.</p>
              </div>
