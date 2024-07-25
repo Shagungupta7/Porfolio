@@ -74,30 +74,6 @@ hr {
   z-index: 2;
 }
 
-.photo {
-  border-radius: 50%;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  z-index: 2;
-  height: 30vh;
-  width: 30vh;
-  margin: 0 auto;
-  transform: translate(-50%, -50%);
-  border: 1px solid white;
-  overflow: hidden;
-}
-
-.photo img {
-  width: 120%;
-  height: 120%;
-  object-fit: cover;
-  object-position: center;
-  position: relative;
-  top: -20%;
-  left: -10%;
-}
-
 ul li a.active {
   color: transparent;
 }
@@ -256,15 +232,6 @@ ul li a.active {
     font-size: 24px;
     margin-left: 15px;
   }
-
-  .photo{
-    height: 20vh;
-    width: 20vh;
-    margin: 10%;
-    top: 10%;
-    left: 40%;
-  }
-
   .contact {
     margin-bottom: 150px;
     margin-left: 20px;
@@ -359,15 +326,6 @@ ul li a.active {
     font-size: 24px;
     margin-left: 15px;
   }
-
-  .photo{
-    height: 20vh;
-    width: 20vh;
-    top: 15%;
-    margin: 0;
-    left: 50%;
-  }
-
   .contact {
     margin-bottom: 150px;
     margin-left: 20px;
