@@ -34,16 +34,15 @@ html, body {
     border-radius: 5px;
     position: absolute;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .d-grid{
+  .contact {
     position: absolute;
-    top: 65%;
+    top: 70%;
     z-index: 3;
-  }
+ } 
   
   .btn {
     border-radius: 100%;
@@ -307,4 +306,89 @@ main {
 }
 .material-symbols-outlined {
     vertical-align: middle;
+}
+
+@media (max-width : 600px) {
+    ul {
+        position: absolute;
+        top: 3%;
+        left: auto;
+        z-index: 3;
+        font-weight: 700;
+    }
+
+    .concept-one {
+        display: grid;
+        grid: repeat(3, 1fr)/ repeat(3, 1fr);
+        padding: 8em;
+        h1 {
+            position: absolute;
+            font-size: 50px;
+            margin: 0;
+            left: 0;
+            right: 0;
+            top: 40%;
+            margin-top: -30px;
+            transition: 0.5s ease;
+            z-index: 0;
+            letter-spacing: 25px;
+            text-align: center;
+        }  
+    }   
+
+    .tag {
+        position: absolute;
+        top: 55%;
+        text-align: center;
+        font-size: 15px;
+        margin: 5px;
+      }
+    
+      .d-grid{
+        position: absolute;
+        top: 65%;
+        z-index: 3;
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        align-items: center;
+      } 
+     .contact {
+        position: absolute;
+        top: 70%;
+     }
+    
+     footer{
+        text-align: center;
+        left: 27%;
+        position: absolute;
+        z-index: 3;
+        font-weight: 300;
+    }
+    
+    .resume {
+        font-size: 15px;
+    }
+
+    .card-container {
+        perspective: 50em;
+        margin: 0;
+    }
+    .card {
+        position: relative;
+        width: 200px;
+        height: auto;
+        padding: 2em;
+        color: black;
+        transform: rotateY(30deg) rotateX(15deg);
+        transform-style: preserve-3d;
+        transition: transform 1s;
+        z-index: 4;
+    }
+    .box {
+        flex-wrap: wrap;
+        z-index: 2;
+        position: absolute;
+    }
+    
 }
